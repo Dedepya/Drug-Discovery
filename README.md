@@ -1,4 +1,4 @@
-# Drug-Discovery
+#  Predicting Solubility of Molecules
 Developed by @Dedeepya Yarlagadda
 
 # Description
