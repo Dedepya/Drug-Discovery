@@ -15,5 +15,17 @@ Drug discovery and development pipelines are long, complicated and depend on sev
 - Matplotlib
 - Linear Regression
 
+# Setup
+! wget https://repo.anaconda.com/miniconda/Miniconda3-py37_4.8.2-Linux-x86_64.sh 
+! chmod +x Miniconda3-py37_4.8.2-Linux-x86_64.sh 
+! bash ./Miniconda3-py37_4.8.2-Linux-x86_64.sh -b -f -p /usr/local 
+! conda install -c rdkit rdkit -y 
+
+
 # Dataset
 Dataset was extracted from https://raw.githubusercontent.com/dataprofessor/data/master/delaney.csv
+
+# Output
+Experimental LogS vs Predicted LogS
+![Screenshot (218)](https://user-images.githubusercontent.com/48832097/192740465-4803c3e5-34a0-4b61-b8f0-855d6e798ec9.png)
+
